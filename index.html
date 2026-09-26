@@ -7,6 +7,14 @@
 </head>
 <body>
 
+    <!-- 
+    Observações para o futuro:
+
+    1. Com o incremento a posteriori do CSS, talvez seja recomendado pegar esses 'style' e colocar separado do HTML. Estilizar
+    apenas no CSS, para não ter problemas futuros.
+    
+    -->
+
     <header>
         <h1>Bem-vindo ao StudyHub</h1>
         <nav aria-label="Navegação Principal">
@@ -74,17 +82,37 @@
                 <a href="paginas/calendario.html" style ="text-decoration: none; color: #0400ff">Ver calendário</a>
             </p>
         </section>
-
-        <hr>
-
-        <h4>Frase para internalizar:</h4>
-        
-        <blockquote>
-            "Um pouco de cada vez também é progresso."
-        </blockquote>
     </main>
+
+    <hr>
     
     <footer>
+        <h4>Links úteis</h4>
+        <nav aria-label="Links úteis">
+            <ul style ="list-style: none; display: flex; gap: 20px;">
+                <li>   
+                    <a href="paginas/contato.html" style="display: inline-flex; align-items: center; gap: 4px; text-decoration: none; color: #0400ff;">
+                        <img src = "img/iconeContato.jpeg" alt= "ÍconeContato" style="width: 20px; height: 20px">
+                        Contato
+                    </a>
+                </li>
+
+                <li>
+                    <a href="paginas/sobre.html" style ="display: inline-flex; align-items: center; gap: 4px; text-decoration: none; color: #0400ff">
+                    <img src = "img/IconeSobre.png" alt = "ÍconeSobre" style = "width: 20px; height: 20px">
+                    Sobre
+                    </a>
+                </li>
+
+                <li>
+                    <a href="paginas/termos.html" style ="display: inline-flex; align-items: center; gap: 4px; text-decoration: none; color: #0400ff">
+                    <img src = "img/IconeTermos.png" alt = "ÍconeTermos" style = "width: 20px; height: 20px">
+                    Termos de uso
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
         <p><small>&copy; 2026 StudyHub. Todos os direitos reservados.</small></p>
     </footer>
 
